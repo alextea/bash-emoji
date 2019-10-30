@@ -1,6 +1,10 @@
 # bash-emoji
 
+🍏 🍎 🍐 🍊 🍋 🍌 🍉 🍇
+
 Some simple tools to add random emoji to your bash prompt
+
+👨🏻 🧔🏻 🕵🏻‍ 👨🏻‍🎤 👨🏻‍💻 👨🏻‍🔧 👨🏻‍⚖️ 🤵🏻
 
 ## clock-emoji.sh
 
