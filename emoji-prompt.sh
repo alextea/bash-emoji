@@ -8,6 +8,9 @@ random_emoji() {
   local day=$(date +%d)
   local month=$(date +%m)
 
+  day=${day#0}
+  month=${month#0}
+
   if [[ $month -eq 2 && $day -eq 14 ]]; then
     # valentine's day
     folder_emoji=(💌 ❤️ 🧡 💛 💚 💙 💜 ❣️ 💕 💞 💓 💗 💖 💘 💝)

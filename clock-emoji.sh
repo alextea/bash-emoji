@@ -5,6 +5,9 @@ clock_emoji() {
     local CE=🕛
     local clock_array=(🕛 🕧 🕐 🕜 🕑 🕝 🕒 🕞 🕓 🕟 🕔 🕠 🕕 🕡 🕖 🕢 🕗 🕣 🕘 🕤 🕙 🕥 🕚 🕦)
 
+    hour=${hour#0}
+    minute=${minute#0}
+
     if [[ $hour -eq 12 ]]; then
       hour=0
     fi
